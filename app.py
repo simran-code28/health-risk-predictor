@@ -46,7 +46,7 @@ if st.sidebar.button("🚪 Logout"):
     st.rerun()
 
 # ---------------- Model Load ----------------
-model = joblib.load("./models/health_model.pkl")
+model = joblib.load("health_model.pkl")
 
 st.header("🩺 Patient Health Risk Prediction")
 
@@ -90,5 +90,6 @@ if st.button("Predict Risk"):
     if not tips:
         tips = ["• Keep up the healthy habits! Maintain regular checkups."]
     st.write("\n".join(tips))
+
 
     st.caption("⚠ Note: This is an aid, not a medical diagnosis. Consult a professional for clinical decisions.")
