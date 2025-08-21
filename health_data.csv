@@ -1,0 +1,8 @@
+age,bmi,blood_pressure,sugar_level,physical_activity,smoking,disease_risk
+45,26,130,95,2,1,1
+30,22,120,85,4,0,0
+60,28,140,110,1,1,1
+50,25,135,100,3,0,0
+35,23,118,90,4,0,0
+55,29,145,115,2,1,1
+
